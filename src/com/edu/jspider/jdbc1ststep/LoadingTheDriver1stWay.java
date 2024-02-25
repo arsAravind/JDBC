@@ -8,6 +8,8 @@ package com.edu.jspider.jdbc1ststep;
 //we have to set build path(import) in the project which we downloaded MySQL connector
 //now MySQL driver c is ready and then we have to store MySQLdriver in refvar(Driver c of java.sql.Driver)..upcasting
 //And by registerDriver(driver//i.e refvar)method and finally we can load the driver(MySQL driver)
+
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -23,6 +25,6 @@ public class LoadingTheDriver1stWay {
 			
 			e.printStackTrace();
 		}
-		
+		System.out.println("hi");
 	}
 }
