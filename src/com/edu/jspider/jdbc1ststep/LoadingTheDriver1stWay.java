@@ -20,10 +20,8 @@ public class LoadingTheDriver1stWay {
 			System.out.println("loading the driver successfully done..");
 		} 
 		catch (SQLException e) {
-			
 			e.printStackTrace();
 		}
-		System.out.println();
-		System.out.println();
+		
 	}
 }
